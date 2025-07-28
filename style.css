@@ -1,0 +1,36 @@
+body {
+    font-family: 'Playfair Display', serif;
+    background: #fff0f5;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.pantalla-inicial {
+    padding: 20px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ffb6c1;
+    color: white;
+    cursor: pointer;
+}
+
+.carta {
+    font-family: 'Great Vibes', cursive;
+    padding: 30px;
+    font-size: 22px;
+    line-height: 1.6;
+}
+
+img.gif-bienvenida, img.gif-carta {
+    width: 80%;
+    max-width: 300px;
+    border-radius: 16px;
+    margin: 20px 0;
+}
