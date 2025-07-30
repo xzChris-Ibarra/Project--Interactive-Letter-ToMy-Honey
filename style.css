@@ -1,0 +1,45 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  background: #fff0f5;
+  font-family: 'Lora', serif;
+  color: #4a2e2e;
+  overflow-x: hidden;
+}
+.container {
+  width: 390px;
+  max-width: 100%;
+  margin: auto;
+  border-radius: 30px;
+  overflow: hidden;
+  background: #f2a4ff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.screen, .scroll {
+  width: 100%;
+  min-height: 844px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.hidden { display: none; }
+.gif-portada { width: 60%; cursor: pointer; }
+.gif-inicio { width: 70%; margin-bottom: 20px; }
+.texto-carta { padding: 0 10px; }
+.parrafo { font-size: 14px; line-height: 1.6; color: #ffffff; text-align: left; margin-bottom: 15px; }
+.subtitulo { font-family: 'Cinzel', serif; font-size: 16px; color: rgba(255,255,255,0.85); text-align: center; letter-spacing: 2px; }
+.galeria-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 10px; margin-bottom: 20px; }
+.galeria-grid.gifs { grid-template-columns: repeat(2,1fr); }
+.galeria-grid img { width: 100%; border-radius: 15px; }
+.scroll1 { background: #fff0f5; }
+.scroll-title { font-family: 'Alex Brush', cursive; font-size: 24px; color: #d6336c; margin-bottom: 20px; }
+.audio-button { display: flex; align-items: center; cursor: pointer; gap: 10px; margin-bottom: 20px; }
+.audio-button img { width: 80px; }
+.audio-button span { font-family: 'Lora', serif; font-weight: bold; font-size: 18px; color: #ff69b4; }
+.scroll-text { font-size: 16px; line-height: 1.8; color: #4a2e2e; text-align: center; max-width: 90%; margin: 20px auto; }
+.scroll-img { width: 90%; max-width: 500px; border-radius: 20px; margin-top: 20px; }
+.scroll2 { background: #ffe4e1; }
+.final-text { font-family: 'Alex Brush', cursive; font-size: 24px; color: #d6336c; margin-bottom: 60px; }
+.gif-inclinado { position: relative; top: -40px; width: 120px; transform: rotate(-10deg); margin-bottom: -20px; }
+.firma { font-family: 'Alex Brush', cursive; font-size: 12px; color: #c71585; margin-top: 20px; }
