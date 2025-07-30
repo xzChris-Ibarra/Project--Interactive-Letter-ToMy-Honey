@@ -23,13 +23,6 @@ body {
   justify-content: center;
   padding: 20px;
 }
-.scroll-2 {
-  min-height: 100vh;
-  background: #e8c2f4;
-  padding: 40px 20px;
-  text-align: center;
-}
-
 .hidden { display: none; }
 .gif-portada { width: 60%; cursor: pointer; }
 .gif-inicio { width: 70%; margin-bottom: 20px; }
